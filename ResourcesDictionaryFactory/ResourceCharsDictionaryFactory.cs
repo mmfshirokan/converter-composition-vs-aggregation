@@ -33,10 +33,25 @@ namespace ResourcesDictionaryFactory
             {
                 Dictionary = new Dictionary<Сharacter, string>
                 {
-                    [Сharacter.Zero] = Dictionary.Zero, 
-                    [Сharacter.One] = Dictionary.One, 
+                    [Сharacter.Zero] = Dictionary.Zero,
+                    [Сharacter.One] = Dictionary.One,
                     [Сharacter.Two] = Dictionary.Two,
-                    //Add the required code here. Remove comments.
+                    [Сharacter.Three] = Dictionary.Three,
+                    [Сharacter.Four] = Dictionary.Four,
+                    [Сharacter.Five] = Dictionary.Five,
+                    [Сharacter.Six] = Dictionary.Six,
+                    [Сharacter.Seven] = Dictionary.Seven,
+                    [Сharacter.Eight] = Dictionary.Eight,
+                    [Сharacter.Nine] = Dictionary.Nine,
+                    [Сharacter.Minus] = Dictionary.Minus,
+                    [Сharacter.Plus] = Dictionary.Plus,
+                    [Сharacter.Point] = Dictionary.Point,
+                    [Сharacter.Comma] = Dictionary.Comma,
+                    [Сharacter.Exponent] = Dictionary.Exponent,
+                    [Сharacter.Epsilon] = Dictionary.Epsilon,
+                    [Сharacter.NegativeInfinity] = Dictionary.NegativeInfinity,
+                    [Сharacter.PositiveInfinity] = Dictionary.PositiveInfinity,
+                    [Сharacter.NaN] = Dictionary.NaN,
                 },
                 CultureName = this.cultureName,
             };
